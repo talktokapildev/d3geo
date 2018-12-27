@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/vendor/d3.geomap.css"
             ],
-            "scripts": []
+            "scripts": [
+              //"node_modules/d3/dist/d3.js",
+              "src/vendor/d3.geomap.dependencies.min.js",
+              "src/vendor/d3.geomap.min.js",
+            ]
           },
           "configurations": {
             "production": {
